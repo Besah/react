@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #2d2d2d;
+  color: orange;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.password-input {
+  flex: 1;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.copy-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

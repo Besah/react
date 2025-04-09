@@ -1,0 +1,40 @@
+.input-box-container {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.amount-box,
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 6px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+}
+
+.select-field {
+  padding: 6px 8px;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
