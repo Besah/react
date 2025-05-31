@@ -1,5 +1,8 @@
+@import "tailwindcss";
+
+
 /* App background styles */
-.app-background {
+/* .app-background {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -9,18 +12,18 @@
   background-image: url("https://images.pexels.com/photos/4497591/pexels-photo-4497591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 /* Main container holding the form */
-.app-container {
+/* .app-container {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px;
-}
+} */
 
 /* Converter form styling */
-.converter-form {
+/* .converter-form {
   width: 100%;
   max-width: 400px;
   border: 1px solid #ccc;
@@ -28,23 +31,23 @@
   padding: 20px;
   backdrop-filter: blur(6px);
   background-color: rgba(255, 255, 255, 0.3);
-}
+} */
 
 /* Wrappers for each InputBox */
-.input-wrapper {
+/* .input-wrapper {
   width: 100%;
   margin-bottom: 15px;
-}
+} */
 
 /* Swap button wrapper */
-.swap-button-wrapper {
+/* .swap-button-wrapper {
   position: relative;
   height: 20px;
   margin-bottom: 15px;
-}
+} */
 
 /* Centered swap button */
-.swap-button {
+/* .swap-button {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -55,10 +58,10 @@
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
-}
+} */
 
 /* Convert button */
-.convert-button {
+/* .convert-button {
   width: 100%;
   background-color: #2563eb;
   color: white;
@@ -67,4 +70,4 @@
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-}
+}  */

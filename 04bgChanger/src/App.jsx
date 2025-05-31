@@ -22,12 +22,21 @@ function App() {
           Green
         </button>
         <button
+          onClick={() => setColor("#800080")}
+          className="color-button"
+          style={{ backgroundColor: "#800080" }}
+        >
+          Velvet
+        </button>
+
+        <button
           onClick={() => setColor("purple")}
           className="color-button"
           style={{ backgroundColor: "purple" }}
         >
-          Velvet
+          Purple
         </button>
+
         <button
           onClick={() => setColor("gold")}
           className="color-button"
